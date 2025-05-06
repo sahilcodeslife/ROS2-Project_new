@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating autonomous_nav.egg-info
+writing autonomous_nav.egg-info/PKG-INFO
+writing dependency_links to autonomous_nav.egg-info/dependency_links.txt
+writing entry points to autonomous_nav.egg-info/entry_points.txt
+writing requirements to autonomous_nav.egg-info/requires.txt
+writing top-level names to autonomous_nav.egg-info/top_level.txt
+writing manifest file 'autonomous_nav.egg-info/SOURCES.txt'
+reading manifest file 'autonomous_nav.egg-info/SOURCES.txt'
+writing manifest file 'autonomous_nav.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/ROS2-Project/install/autonomous_nav/lib/python3.10/site-packages/autonomous-nav.egg-link (link to .)
+Installing demo script to /root/ROS2-Project/install/autonomous_nav/lib/autonomous_nav
+Installing navigator script to /root/ROS2-Project/install/autonomous_nav/lib/autonomous_nav
+
+Installed /root/ROS2-Project/build/autonomous_nav
+running symlink_data
+creating /root/ROS2-Project/install/autonomous_nav/share/ament_index
+creating /root/ROS2-Project/install/autonomous_nav/share/ament_index/resource_index
+creating /root/ROS2-Project/install/autonomous_nav/share/ament_index/resource_index/packages
+symbolically linking /root/ROS2-Project/build/autonomous_nav/resource/autonomous_nav -> /root/ROS2-Project/install/autonomous_nav/share/ament_index/resource_index/packages
+symbolically linking /root/ROS2-Project/build/autonomous_nav/package.xml -> /root/ROS2-Project/install/autonomous_nav/share/autonomous_nav

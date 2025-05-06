@@ -1,0 +1,72 @@
+[0.012s] Invoking command in '/root/ROS2-Project/build/ariaNode': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ROS2-Project/src/ariaNode -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ROS2-Project/install/ariaNode
+[0.159s] -- The C compiler identification is GNU 11.4.0
+[0.159s] -- The CXX compiler identification is GNU 11.4.0
+[0.159s] -- Detecting C compiler ABI info
+[0.159s] -- Detecting C compiler ABI info - done
+[0.159s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.160s] -- Detecting C compile features
+[0.160s] -- Detecting C compile features - done
+[0.160s] -- Detecting CXX compiler ABI info
+[0.199s] -- Detecting CXX compiler ABI info - done
+[0.208s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.209s] -- Detecting CXX compile features
+[0.209s] -- Detecting CXX compile features - done
+[0.212s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.312s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.355s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.380s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.412s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.415s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.421s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.429s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.440s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.469s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.471s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.534s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.560s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.589s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.594s] -- Looking for pthread.h
+[0.643s] -- Looking for pthread.h - found
+[0.644s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.693s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.694s] -- Found Threads: TRUE  
+[0.728s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.737s] [0mThe root directory is /opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules[0m
+[0.737s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.778s] WARNING: Package name "ariaNode" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[0.796s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.796s] -- Configured cppcheck include dirs: 
+[0.796s] -- Configured cppcheck exclude dirs and/or files: 
+[0.796s] -- Added test 'lint_cmake' to check CMake code style
+[0.797s] -- Added test 'uncrustify' to check C / C++ code style
+[0.797s] -- Configured uncrustify additional arguments: 
+[0.797s] -- Added test 'xmllint' to check XML markup files
+[0.798s] -- Configuring done
+[0.803s] -- Generating done
+[0.805s] -- Build files have been written to: /root/ROS2-Project/build/ariaNode
+[0.811s] Invoked command in '/root/ROS2-Project/build/ariaNode' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ROS2-Project/src/ariaNode -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ROS2-Project/install/ariaNode
+[0.812s] Invoking command in '/root/ROS2-Project/build/ariaNode': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ROS2-Project/build/ariaNode -- -j8 -l8
+[0.854s] [ 50%] [32mBuilding CXX object CMakeFiles/ariaNode.dir/src/ariaNode.cpp.o[0m
+[6.111s] [100%] [32m[1mLinking CXX executable ariaNode[0m
+[6.369s] [100%] Built target ariaNode
+[6.375s] Invoked command in '/root/ROS2-Project/build/ariaNode' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ROS2-Project/build/ariaNode -- -j8 -l8
+[6.381s] Invoking command in '/root/ROS2-Project/build/ariaNode': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ROS2-Project/build/ariaNode
+[6.385s] -- Install configuration: ""
+[6.385s] -- Execute custom install script
+[6.386s] -- Symlinking: /root/ROS2-Project/install/ariaNode/lib/ariaNode/ariaNode
+[6.391s] -- Symlinking: /root/ROS2-Project/install/ariaNode/share/ament_index/resource_index/package_run_dependencies/ariaNode
+[6.396s] -- Symlinking: /root/ROS2-Project/install/ariaNode/share/ament_index/resource_index/parent_prefix_path/ariaNode
+[6.402s] -- Symlinking: /root/ROS2-Project/install/ariaNode/share/ariaNode/environment/ament_prefix_path.sh
+[6.408s] -- Symlinking: /root/ROS2-Project/install/ariaNode/share/ariaNode/environment/ament_prefix_path.dsv
+[6.412s] -- Symlinking: /root/ROS2-Project/install/ariaNode/share/ariaNode/environment/path.sh
+[6.417s] -- Symlinking: /root/ROS2-Project/install/ariaNode/share/ariaNode/environment/path.dsv
+[6.423s] -- Symlinking: /root/ROS2-Project/install/ariaNode/share/ariaNode/local_setup.bash
+[6.429s] -- Symlinking: /root/ROS2-Project/install/ariaNode/share/ariaNode/local_setup.sh
+[6.434s] -- Symlinking: /root/ROS2-Project/install/ariaNode/share/ariaNode/local_setup.zsh
+[6.439s] -- Symlinking: /root/ROS2-Project/install/ariaNode/share/ariaNode/local_setup.dsv
+[6.444s] -- Symlinking: /root/ROS2-Project/install/ariaNode/share/ariaNode/package.dsv
+[6.449s] -- Symlinking: /root/ROS2-Project/install/ariaNode/share/ament_index/resource_index/packages/ariaNode
+[6.454s] -- Symlinking: /root/ROS2-Project/install/ariaNode/share/ariaNode/cmake/ariaNodeConfig.cmake
+[6.459s] -- Symlinking: /root/ROS2-Project/install/ariaNode/share/ariaNode/cmake/ariaNodeConfig-version.cmake
+[6.464s] -- Symlinking: /root/ROS2-Project/install/ariaNode/share/ariaNode/package.xml
+[6.471s] Invoked command in '/root/ROS2-Project/build/ariaNode' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ROS2-Project/build/ariaNode

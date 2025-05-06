@@ -1,0 +1,16 @@
+/root/ROS2-Project/install/ariaNode/lib/ariaNode/ariaNode
+/root/ROS2-Project/install/ariaNode/share/ament_index/resource_index/package_run_dependencies/ariaNode
+/root/ROS2-Project/install/ariaNode/share/ament_index/resource_index/parent_prefix_path/ariaNode
+/root/ROS2-Project/install/ariaNode/share/ariaNode/environment/ament_prefix_path.sh
+/root/ROS2-Project/install/ariaNode/share/ariaNode/environment/ament_prefix_path.dsv
+/root/ROS2-Project/install/ariaNode/share/ariaNode/environment/path.sh
+/root/ROS2-Project/install/ariaNode/share/ariaNode/environment/path.dsv
+/root/ROS2-Project/install/ariaNode/share/ariaNode/local_setup.bash
+/root/ROS2-Project/install/ariaNode/share/ariaNode/local_setup.sh
+/root/ROS2-Project/install/ariaNode/share/ariaNode/local_setup.zsh
+/root/ROS2-Project/install/ariaNode/share/ariaNode/local_setup.dsv
+/root/ROS2-Project/install/ariaNode/share/ariaNode/package.dsv
+/root/ROS2-Project/install/ariaNode/share/ament_index/resource_index/packages/ariaNode
+/root/ROS2-Project/install/ariaNode/share/ariaNode/cmake/ariaNodeConfig.cmake
+/root/ROS2-Project/install/ariaNode/share/ariaNode/cmake/ariaNodeConfig-version.cmake
+/root/ROS2-Project/install/ariaNode/share/ariaNode/package.xml

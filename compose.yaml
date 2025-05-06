@@ -1,0 +1,19 @@
+services:
+  ros2:
+    build: .
+    container_name: pioneer_ros2
+    privileged: true
+    environment:
+    - DISPLAY=:1
+    #   #- QT_X11_NO_MITSHM=1
+
+    volumes:
+      - .:/root/ROS2-Project
+      - /dev/bus/usb:/dev/bus/usb
+
+    stdin_open: true
+    tty: true
+    networks: 
+      - robot_net 
+networks:
+  robot_net:

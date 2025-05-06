@@ -1,0 +1,12 @@
+docker run -it --rm \
+  --net=host \
+  --privileged \
+  --device=/dev/ttyUSB0 \
+  pioneer_ros2
+  Use the command for running docker
+
+
+ build: docker build --platform=linux/amd64 -t pioneer_ros2 .
+
+
+ ros2 run ariaNode ariaNode -rp /dev/ttyUSB0

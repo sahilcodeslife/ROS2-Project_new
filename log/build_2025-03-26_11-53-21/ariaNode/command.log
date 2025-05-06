@@ -1,0 +1,6 @@
+Invoking command in '/root/ROS2-Project/build/ariaNode': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ROS2-Project/src/ariaNode -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ROS2-Project/install/ariaNode
+Invoked command in '/root/ROS2-Project/build/ariaNode' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ROS2-Project/src/ariaNode -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ROS2-Project/install/ariaNode
+Invoking command in '/root/ROS2-Project/build/ariaNode': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ROS2-Project/build/ariaNode -- -j8 -l8
+Invoked command in '/root/ROS2-Project/build/ariaNode' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ROS2-Project/build/ariaNode -- -j8 -l8
+Invoking command in '/root/ROS2-Project/build/ariaNode': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ROS2-Project/build/ariaNode
+Invoked command in '/root/ROS2-Project/build/ariaNode' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ROS2-Project/build/ariaNode

@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating robot_joy_control.egg-info
+writing robot_joy_control.egg-info/PKG-INFO
+writing dependency_links to robot_joy_control.egg-info/dependency_links.txt
+writing entry points to robot_joy_control.egg-info/entry_points.txt
+writing requirements to robot_joy_control.egg-info/requires.txt
+writing top-level names to robot_joy_control.egg-info/top_level.txt
+writing manifest file 'robot_joy_control.egg-info/SOURCES.txt'
+reading manifest file 'robot_joy_control.egg-info/SOURCES.txt'
+writing manifest file 'robot_joy_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/ROS2-Project/install/robot_joy_control/lib/python3.10/site-packages/robot-joy-control.egg-link (link to .)
+Installing joy_control script to /root/ROS2-Project/install/robot_joy_control/lib/robot_joy_control
+
+Installed /root/ROS2-Project/build/robot_joy_control
+running symlink_data
+creating /root/ROS2-Project/install/robot_joy_control/share/ament_index
+creating /root/ROS2-Project/install/robot_joy_control/share/ament_index/resource_index
+creating /root/ROS2-Project/install/robot_joy_control/share/ament_index/resource_index/packages
+symbolically linking /root/ROS2-Project/build/robot_joy_control/resource/robot_joy_control -> /root/ROS2-Project/install/robot_joy_control/share/ament_index/resource_index/packages
+symbolically linking /root/ROS2-Project/build/robot_joy_control/package.xml -> /root/ROS2-Project/install/robot_joy_control/share/robot_joy_control

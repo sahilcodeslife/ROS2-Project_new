@@ -1,0 +1,199 @@
+[0.000000] (-) TimerEvent: {}
+[0.000225] (ariaNode) JobQueued: {'identifier': 'ariaNode', 'dependencies': OrderedDict()}
+[0.000277] (autonomous_nav) JobQueued: {'identifier': 'autonomous_nav', 'dependencies': OrderedDict()}
+[0.000291] (robot_joy_control) JobQueued: {'identifier': 'robot_joy_control', 'dependencies': OrderedDict()}
+[0.000307] (ariaNode) JobStarted: {'identifier': 'ariaNode'}
+[0.005041] (autonomous_nav) JobStarted: {'identifier': 'autonomous_nav'}
+[0.008081] (robot_joy_control) JobStarted: {'identifier': 'robot_joy_control'}
+[0.011455] (ariaNode) JobProgress: {'identifier': 'ariaNode', 'progress': 'cmake'}
+[0.011680] (ariaNode) Command: {'cmd': ['/usr/bin/cmake', '/root/ROS2-Project/src/ariaNode', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/ROS2-Project/install/ariaNode'], 'cwd': '/root/ROS2-Project/build/ariaNode', 'env': OrderedDict([('HOSTNAME', 'pioneer1'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/root/ROS2-Project/build/ariaNode'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099637] (-) TimerEvent: {}
+[0.159127] (ariaNode) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.159518] (ariaNode) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.159591] (ariaNode) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.159632] (ariaNode) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.159675] (ariaNode) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.159789] (ariaNode) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.159829] (ariaNode) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.159867] (ariaNode) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.198932] (ariaNode) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.199683] (-) TimerEvent: {}
+[0.208697] (ariaNode) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.208975] (ariaNode) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.209491] (ariaNode) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.212380] (ariaNode) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299813] (-) TimerEvent: {}
+[0.312397] (ariaNode) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.354853] (ariaNode) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.380021] (ariaNode) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.399900] (-) TimerEvent: {}
+[0.411861] (ariaNode) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.415279] (ariaNode) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.421344] (ariaNode) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.429428] (ariaNode) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.440335] (ariaNode) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.469655] (ariaNode) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.471356] (ariaNode) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500010] (-) TimerEvent: {}
+[0.502549] (autonomous_nav) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/root/ROS2-Project/build/autonomous_nav/build', '--no-deps', 'symlink_data'], 'cwd': '/root/ROS2-Project/build/autonomous_nav', 'env': {'HOSTNAME': 'pioneer1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'PWD': '/root/ROS2-Project/build/autonomous_nav', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/ROS2-Project/build/autonomous_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ROS2-Project/install/autonomous_nav/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.529833] (robot_joy_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/root/ROS2-Project/build/robot_joy_control/build', '--no-deps', 'symlink_data'], 'cwd': '/root/ROS2-Project/build/robot_joy_control', 'env': {'HOSTNAME': 'pioneer1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'PWD': '/root/ROS2-Project/build/robot_joy_control', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/ROS2-Project/build/robot_joy_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ROS2-Project/install/robot_joy_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.533823] (ariaNode) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.559872] (ariaNode) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.588794] (ariaNode) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.594393] (ariaNode) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.600086] (-) TimerEvent: {}
+[0.643529] (ariaNode) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.644055] (ariaNode) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.666596] (autonomous_nav) StdoutLine: {'line': b'running develop\n'}
+[0.679776] (robot_joy_control) StdoutLine: {'line': b'running develop\n'}
+[0.693172] (ariaNode) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.693963] (ariaNode) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.700160] (-) TimerEvent: {}
+[0.728621] (ariaNode) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.736913] (ariaNode) StderrLine: {'line': b'\x1b[0mThe root directory is /opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules\x1b[0m\n'}
+[0.737718] (ariaNode) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.738910] (autonomous_nav) StdoutLine: {'line': b'running egg_info\n'}
+[0.739030] (autonomous_nav) StdoutLine: {'line': b'creating autonomous_nav.egg-info\n'}
+[0.739198] (autonomous_nav) StdoutLine: {'line': b'writing autonomous_nav.egg-info/PKG-INFO\n'}
+[0.739374] (autonomous_nav) StdoutLine: {'line': b'writing dependency_links to autonomous_nav.egg-info/dependency_links.txt\n'}
+[0.739487] (autonomous_nav) StdoutLine: {'line': b'writing entry points to autonomous_nav.egg-info/entry_points.txt\n'}
+[0.739556] (autonomous_nav) StdoutLine: {'line': b'writing requirements to autonomous_nav.egg-info/requires.txt\n'}
+[0.739636] (autonomous_nav) StdoutLine: {'line': b'writing top-level names to autonomous_nav.egg-info/top_level.txt\n'}
+[0.739713] (autonomous_nav) StdoutLine: {'line': b"writing manifest file 'autonomous_nav.egg-info/SOURCES.txt'\n"}
+[0.740806] (autonomous_nav) StdoutLine: {'line': b"reading manifest file 'autonomous_nav.egg-info/SOURCES.txt'\n"}
+[0.741408] (autonomous_nav) StdoutLine: {'line': b"writing manifest file 'autonomous_nav.egg-info/SOURCES.txt'\n"}
+[0.742330] (autonomous_nav) StdoutLine: {'line': b'running build_ext\n'}
+[0.742450] (autonomous_nav) StdoutLine: {'line': b'Creating /root/ROS2-Project/install/autonomous_nav/lib/python3.10/site-packages/autonomous-nav.egg-link (link to .)\n'}
+[0.742972] (autonomous_nav) StdoutLine: {'line': b'Installing demo script to /root/ROS2-Project/install/autonomous_nav/lib/autonomous_nav\n'}
+[0.743076] (autonomous_nav) StdoutLine: {'line': b'Installing navigator script to /root/ROS2-Project/install/autonomous_nav/lib/autonomous_nav\n'}
+[0.743168] (autonomous_nav) StdoutLine: {'line': b'\n'}
+[0.743253] (autonomous_nav) StdoutLine: {'line': b'Installed /root/ROS2-Project/build/autonomous_nav\n'}
+[0.743346] (autonomous_nav) StdoutLine: {'line': b'running symlink_data\n'}
+[0.743431] (autonomous_nav) StdoutLine: {'line': b'creating /root/ROS2-Project/install/autonomous_nav/share/ament_index\n'}
+[0.743499] (autonomous_nav) StdoutLine: {'line': b'creating /root/ROS2-Project/install/autonomous_nav/share/ament_index/resource_index\n'}
+[0.743564] (autonomous_nav) StdoutLine: {'line': b'creating /root/ROS2-Project/install/autonomous_nav/share/ament_index/resource_index/packages\n'}
+[0.743631] (autonomous_nav) StdoutLine: {'line': b'symbolically linking /root/ROS2-Project/build/autonomous_nav/resource/autonomous_nav -> /root/ROS2-Project/install/autonomous_nav/share/ament_index/resource_index/packages\n'}
+[0.743711] (autonomous_nav) StdoutLine: {'line': b'symbolically linking /root/ROS2-Project/build/autonomous_nav/package.xml -> /root/ROS2-Project/install/autonomous_nav/share/autonomous_nav\n'}
+[0.754545] (robot_joy_control) StdoutLine: {'line': b'running egg_info\n'}
+[0.754753] (robot_joy_control) StdoutLine: {'line': b'creating robot_joy_control.egg-info\n'}
+[0.754866] (robot_joy_control) StdoutLine: {'line': b'writing robot_joy_control.egg-info/PKG-INFO\n'}
+[0.755292] (robot_joy_control) StdoutLine: {'line': b'writing dependency_links to robot_joy_control.egg-info/dependency_links.txt\n'}
+[0.755387] (robot_joy_control) StdoutLine: {'line': b'writing entry points to robot_joy_control.egg-info/entry_points.txt\n'}
+[0.755444] (robot_joy_control) StdoutLine: {'line': b'writing requirements to robot_joy_control.egg-info/requires.txt\n'}
+[0.755497] (robot_joy_control) StdoutLine: {'line': b'writing top-level names to robot_joy_control.egg-info/top_level.txt\n'}
+[0.755606] (robot_joy_control) StdoutLine: {'line': b"writing manifest file 'robot_joy_control.egg-info/SOURCES.txt'\n"}
+[0.756936] (robot_joy_control) StdoutLine: {'line': b"reading manifest file 'robot_joy_control.egg-info/SOURCES.txt'\n"}
+[0.757516] (robot_joy_control) StdoutLine: {'line': b"writing manifest file 'robot_joy_control.egg-info/SOURCES.txt'\n"}
+[0.758498] (robot_joy_control) StdoutLine: {'line': b'running build_ext\n'}
+[0.758750] (robot_joy_control) StdoutLine: {'line': b'Creating /root/ROS2-Project/install/robot_joy_control/lib/python3.10/site-packages/robot-joy-control.egg-link (link to .)\n'}
+[0.759319] (robot_joy_control) StdoutLine: {'line': b'Installing joy_control script to /root/ROS2-Project/install/robot_joy_control/lib/robot_joy_control\n'}
+[0.759503] (robot_joy_control) StdoutLine: {'line': b'\n'}
+[0.759558] (robot_joy_control) StdoutLine: {'line': b'Installed /root/ROS2-Project/build/robot_joy_control\n'}
+[0.759619] (robot_joy_control) StdoutLine: {'line': b'running symlink_data\n'}
+[0.759699] (robot_joy_control) StdoutLine: {'line': b'creating /root/ROS2-Project/install/robot_joy_control/share/ament_index\n'}
+[0.759763] (robot_joy_control) StdoutLine: {'line': b'creating /root/ROS2-Project/install/robot_joy_control/share/ament_index/resource_index\n'}
+[0.759824] (robot_joy_control) StdoutLine: {'line': b'creating /root/ROS2-Project/install/robot_joy_control/share/ament_index/resource_index/packages\n'}
+[0.759863] (robot_joy_control) StdoutLine: {'line': b'symbolically linking /root/ROS2-Project/build/robot_joy_control/resource/robot_joy_control -> /root/ROS2-Project/install/robot_joy_control/share/ament_index/resource_index/packages\n'}
+[0.759901] (robot_joy_control) StdoutLine: {'line': b'symbolically linking /root/ROS2-Project/build/robot_joy_control/package.xml -> /root/ROS2-Project/install/robot_joy_control/share/robot_joy_control\n'}
+[0.765950] (autonomous_nav) CommandEnded: {'returncode': 0}
+[0.773814] (autonomous_nav) JobEnded: {'identifier': 'autonomous_nav', 'rc': 0}
+[0.778390] (ariaNode) StderrLine: {'line': b'WARNING: Package name "ariaNode" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[0.780703] (robot_joy_control) CommandEnded: {'returncode': 0}
+[0.785577] (robot_joy_control) JobEnded: {'identifier': 'robot_joy_control', 'rc': 0}
+[0.796115] (ariaNode) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.796210] (ariaNode) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.796252] (ariaNode) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.796398] (ariaNode) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.796903] (ariaNode) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.796976] (ariaNode) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.797133] (ariaNode) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.797986] (ariaNode) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.800248] (-) TimerEvent: {}
+[0.803492] (ariaNode) StdoutLine: {'line': b'-- Generating done\n'}
+[0.805411] (ariaNode) StdoutLine: {'line': b'-- Build files have been written to: /root/ROS2-Project/build/ariaNode\n'}
+[0.810824] (ariaNode) CommandEnded: {'returncode': 0}
+[0.811176] (ariaNode) JobProgress: {'identifier': 'ariaNode', 'progress': 'build'}
+[0.811629] (ariaNode) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ROS2-Project/build/ariaNode', '--', '-j8', '-l8'], 'cwd': '/root/ROS2-Project/build/ariaNode', 'env': OrderedDict([('HOSTNAME', 'pioneer1'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/root/ROS2-Project/build/ariaNode'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.854716] (ariaNode) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ariaNode.dir/src/ariaNode.cpp.o\x1b[0m\n'}
+[0.900366] (-) TimerEvent: {}
+[1.000770] (-) TimerEvent: {}
+[1.101102] (-) TimerEvent: {}
+[1.201444] (-) TimerEvent: {}
+[1.301791] (-) TimerEvent: {}
+[1.402123] (-) TimerEvent: {}
+[1.502469] (-) TimerEvent: {}
+[1.602799] (-) TimerEvent: {}
+[1.703067] (-) TimerEvent: {}
+[1.803330] (-) TimerEvent: {}
+[1.903597] (-) TimerEvent: {}
+[2.003858] (-) TimerEvent: {}
+[2.104193] (-) TimerEvent: {}
+[2.204540] (-) TimerEvent: {}
+[2.304896] (-) TimerEvent: {}
+[2.405168] (-) TimerEvent: {}
+[2.505491] (-) TimerEvent: {}
+[2.605826] (-) TimerEvent: {}
+[2.706193] (-) TimerEvent: {}
+[2.806527] (-) TimerEvent: {}
+[2.906867] (-) TimerEvent: {}
+[3.007177] (-) TimerEvent: {}
+[3.107513] (-) TimerEvent: {}
+[3.207857] (-) TimerEvent: {}
+[3.308196] (-) TimerEvent: {}
+[3.408560] (-) TimerEvent: {}
+[3.508862] (-) TimerEvent: {}
+[3.609185] (-) TimerEvent: {}
+[3.709517] (-) TimerEvent: {}
+[3.809855] (-) TimerEvent: {}
+[3.910175] (-) TimerEvent: {}
+[4.010522] (-) TimerEvent: {}
+[4.110879] (-) TimerEvent: {}
+[4.211234] (-) TimerEvent: {}
+[4.311604] (-) TimerEvent: {}
+[4.411973] (-) TimerEvent: {}
+[4.512297] (-) TimerEvent: {}
+[4.612616] (-) TimerEvent: {}
+[4.713024] (-) TimerEvent: {}
+[4.813346] (-) TimerEvent: {}
+[4.913680] (-) TimerEvent: {}
+[5.013997] (-) TimerEvent: {}
+[5.114348] (-) TimerEvent: {}
+[5.214677] (-) TimerEvent: {}
+[5.315011] (-) TimerEvent: {}
+[5.415339] (-) TimerEvent: {}
+[5.515697] (-) TimerEvent: {}
+[5.616028] (-) TimerEvent: {}
+[5.716351] (-) TimerEvent: {}
+[5.816616] (-) TimerEvent: {}
+[5.916887] (-) TimerEvent: {}
+[6.017212] (-) TimerEvent: {}
+[6.111442] (ariaNode) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ariaNode\x1b[0m\n'}
+[6.117312] (-) TimerEvent: {}
+[6.217612] (-) TimerEvent: {}
+[6.317992] (-) TimerEvent: {}
+[6.368834] (ariaNode) StdoutLine: {'line': b'[100%] Built target ariaNode\n'}
+[6.375672] (ariaNode) CommandEnded: {'returncode': 0}
+[6.376072] (ariaNode) JobProgress: {'identifier': 'ariaNode', 'progress': 'install'}
+[6.381147] (ariaNode) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ROS2-Project/build/ariaNode'], 'cwd': '/root/ROS2-Project/build/ariaNode', 'env': OrderedDict([('HOSTNAME', 'pioneer1'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/root/ROS2-Project/build/ariaNode'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.385499] (ariaNode) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.385757] (ariaNode) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.385967] (ariaNode) StdoutLine: {'line': b'-- Symlinking: /root/ROS2-Project/install/ariaNode/lib/ariaNode/ariaNode\n'}
+[6.391176] (ariaNode) StdoutLine: {'line': b'-- Symlinking: /root/ROS2-Project/install/ariaNode/share/ament_index/resource_index/package_run_dependencies/ariaNode\n'}
+[6.396305] (ariaNode) StdoutLine: {'line': b'-- Symlinking: /root/ROS2-Project/install/ariaNode/share/ament_index/resource_index/parent_prefix_path/ariaNode\n'}
+[6.401860] (ariaNode) StdoutLine: {'line': b'-- Symlinking: /root/ROS2-Project/install/ariaNode/share/ariaNode/environment/ament_prefix_path.sh\n'}
+[6.407812] (ariaNode) StdoutLine: {'line': b'-- Symlinking: /root/ROS2-Project/install/ariaNode/share/ariaNode/environment/ament_prefix_path.dsv\n'}
+[6.412584] (ariaNode) StdoutLine: {'line': b'-- Symlinking: /root/ROS2-Project/install/ariaNode/share/ariaNode/environment/path.sh\n'}
+[6.417549] (ariaNode) StdoutLine: {'line': b'-- Symlinking: /root/ROS2-Project/install/ariaNode/share/ariaNode/environment/path.dsv\n'}
+[6.418068] (-) TimerEvent: {}
+[6.423464] (ariaNode) StdoutLine: {'line': b'-- Symlinking: /root/ROS2-Project/install/ariaNode/share/ariaNode/local_setup.bash\n'}
+[6.428919] (ariaNode) StdoutLine: {'line': b'-- Symlinking: /root/ROS2-Project/install/ariaNode/share/ariaNode/local_setup.sh\n'}
+[6.434291] (ariaNode) StdoutLine: {'line': b'-- Symlinking: /root/ROS2-Project/install/ariaNode/share/ariaNode/local_setup.zsh\n'}
+[6.439598] (ariaNode) StdoutLine: {'line': b'-- Symlinking: /root/ROS2-Project/install/ariaNode/share/ariaNode/local_setup.dsv\n'}
+[6.444591] (ariaNode) StdoutLine: {'line': b'-- Symlinking: /root/ROS2-Project/install/ariaNode/share/ariaNode/package.dsv\n'}
+[6.449466] (ariaNode) StdoutLine: {'line': b'-- Symlinking: /root/ROS2-Project/install/ariaNode/share/ament_index/resource_index/packages/ariaNode\n'}
+[6.454759] (ariaNode) StdoutLine: {'line': b'-- Symlinking: /root/ROS2-Project/install/ariaNode/share/ariaNode/cmake/ariaNodeConfig.cmake\n'}
+[6.459531] (ariaNode) StdoutLine: {'line': b'-- Symlinking: /root/ROS2-Project/install/ariaNode/share/ariaNode/cmake/ariaNodeConfig-version.cmake\n'}
+[6.464508] (ariaNode) StdoutLine: {'line': b'-- Symlinking: /root/ROS2-Project/install/ariaNode/share/ariaNode/package.xml\n'}
+[6.470752] (ariaNode) CommandEnded: {'returncode': 0}
+[6.478810] (ariaNode) JobEnded: {'identifier': 'ariaNode', 'rc': 0}
+[6.479510] (-) EventReactorShutdown: {}

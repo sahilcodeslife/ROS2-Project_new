@@ -1,0 +1,3 @@
+[console_scripts]
+joy_control = robot_joy_control.joy_control:main
+

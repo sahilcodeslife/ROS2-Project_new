@@ -1,0 +1,4 @@
+[console_scripts]
+demo = autonomous_nav.demo:main
+navigator = autonomous_nav.navigator:main
+

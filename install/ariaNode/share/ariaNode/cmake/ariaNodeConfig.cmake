@@ -1,0 +1,1 @@
+/root/ROS2-Project/build/ariaNode/ament_cmake_core/ariaNodeConfig.cmake

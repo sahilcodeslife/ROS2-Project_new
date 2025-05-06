@@ -1,0 +1,1 @@
+/root/ROS2-Project/build/ariaNode/ament_cmake_environment_hooks/local_setup.zsh

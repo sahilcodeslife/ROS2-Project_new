@@ -1,0 +1,25 @@
+[0.499s] Invoking command in '/root/ROS2-Project/build/autonomous_nav': PYTHONPATH=/root/ROS2-Project/build/autonomous_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ROS2-Project/install/autonomous_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ROS2-Project/build/autonomous_nav/build --no-deps symlink_data
+[0.662s] running develop
+[0.734s] running egg_info
+[0.734s] creating autonomous_nav.egg-info
+[0.734s] writing autonomous_nav.egg-info/PKG-INFO
+[0.734s] writing dependency_links to autonomous_nav.egg-info/dependency_links.txt
+[0.734s] writing entry points to autonomous_nav.egg-info/entry_points.txt
+[0.734s] writing requirements to autonomous_nav.egg-info/requires.txt
+[0.735s] writing top-level names to autonomous_nav.egg-info/top_level.txt
+[0.735s] writing manifest file 'autonomous_nav.egg-info/SOURCES.txt'
+[0.736s] reading manifest file 'autonomous_nav.egg-info/SOURCES.txt'
+[0.736s] writing manifest file 'autonomous_nav.egg-info/SOURCES.txt'
+[0.737s] running build_ext
+[0.737s] Creating /root/ROS2-Project/install/autonomous_nav/lib/python3.10/site-packages/autonomous-nav.egg-link (link to .)
+[0.738s] Installing demo script to /root/ROS2-Project/install/autonomous_nav/lib/autonomous_nav
+[0.738s] Installing navigator script to /root/ROS2-Project/install/autonomous_nav/lib/autonomous_nav
+[0.738s] 
+[0.738s] Installed /root/ROS2-Project/build/autonomous_nav
+[0.738s] running symlink_data
+[0.738s] creating /root/ROS2-Project/install/autonomous_nav/share/ament_index
+[0.738s] creating /root/ROS2-Project/install/autonomous_nav/share/ament_index/resource_index
+[0.738s] creating /root/ROS2-Project/install/autonomous_nav/share/ament_index/resource_index/packages
+[0.739s] symbolically linking /root/ROS2-Project/build/autonomous_nav/resource/autonomous_nav -> /root/ROS2-Project/install/autonomous_nav/share/ament_index/resource_index/packages
+[0.739s] symbolically linking /root/ROS2-Project/build/autonomous_nav/package.xml -> /root/ROS2-Project/install/autonomous_nav/share/autonomous_nav
+[0.761s] Invoked command in '/root/ROS2-Project/build/autonomous_nav' returned '0': PYTHONPATH=/root/ROS2-Project/build/autonomous_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ROS2-Project/install/autonomous_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ROS2-Project/build/autonomous_nav/build --no-deps symlink_data

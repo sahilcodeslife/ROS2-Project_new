@@ -1,0 +1,24 @@
+[0.523s] Invoking command in '/root/ROS2-Project/build/robot_joy_control': PYTHONPATH=/root/ROS2-Project/build/robot_joy_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ROS2-Project/install/robot_joy_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ROS2-Project/build/robot_joy_control/build --no-deps symlink_data
+[0.672s] running develop
+[0.746s] running egg_info
+[0.746s] creating robot_joy_control.egg-info
+[0.747s] writing robot_joy_control.egg-info/PKG-INFO
+[0.747s] writing dependency_links to robot_joy_control.egg-info/dependency_links.txt
+[0.747s] writing entry points to robot_joy_control.egg-info/entry_points.txt
+[0.747s] writing requirements to robot_joy_control.egg-info/requires.txt
+[0.747s] writing top-level names to robot_joy_control.egg-info/top_level.txt
+[0.747s] writing manifest file 'robot_joy_control.egg-info/SOURCES.txt'
+[0.749s] reading manifest file 'robot_joy_control.egg-info/SOURCES.txt'
+[0.749s] writing manifest file 'robot_joy_control.egg-info/SOURCES.txt'
+[0.750s] running build_ext
+[0.750s] Creating /root/ROS2-Project/install/robot_joy_control/lib/python3.10/site-packages/robot-joy-control.egg-link (link to .)
+[0.751s] Installing joy_control script to /root/ROS2-Project/install/robot_joy_control/lib/robot_joy_control
+[0.751s] 
+[0.751s] Installed /root/ROS2-Project/build/robot_joy_control
+[0.751s] running symlink_data
+[0.751s] creating /root/ROS2-Project/install/robot_joy_control/share/ament_index
+[0.751s] creating /root/ROS2-Project/install/robot_joy_control/share/ament_index/resource_index
+[0.752s] creating /root/ROS2-Project/install/robot_joy_control/share/ament_index/resource_index/packages
+[0.752s] symbolically linking /root/ROS2-Project/build/robot_joy_control/resource/robot_joy_control -> /root/ROS2-Project/install/robot_joy_control/share/ament_index/resource_index/packages
+[0.752s] symbolically linking /root/ROS2-Project/build/robot_joy_control/package.xml -> /root/ROS2-Project/install/robot_joy_control/share/robot_joy_control
+[0.773s] Invoked command in '/root/ROS2-Project/build/robot_joy_control' returned '0': PYTHONPATH=/root/ROS2-Project/build/robot_joy_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ROS2-Project/install/robot_joy_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ROS2-Project/build/robot_joy_control/build --no-deps symlink_data
